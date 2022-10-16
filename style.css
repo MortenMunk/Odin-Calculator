@@ -1,0 +1,70 @@
+body {
+    background: rgb(160, 255, 184);
+    background: linear-gradient(180deg, rgb(160, 255, 184) 0%,
+    rgb(67, 246, 177) 50%, rgb(137, 243, 208) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    border: 1px solid black;
+    width: 600px;
+    height: 700px;
+    background-color: rgb(195, 195, 195);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, 
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, 
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, 
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.number-field {
+    margin: 30px 0;
+    width: 82%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, 
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.all-buttons {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    }
+
+.col {
+    flex: 1;
+    align-items: center;
+    display: flex;
+    width: inherit;
+}
+
+button {
+    padding: 40px;
+    width: inherit;
+    font-size: x-large;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.current-number-field {
+    margin-left: 30px;
+    font-size: xx-large;
+}
